@@ -86,10 +86,10 @@ A agenda possui 3 funções principais: calendario, calendario-eventos e mostra-
     (mostra-eventos :ano 2021)
         ;; Irá retornar todos os eventos deste ano
 
-    (mostra-eventos :ano 2021 :mes "Julho")
+    (mostra-eventos :ano 2021 :mes 7)
         ;; Irá retornar todos os eventos deste ano, no mês especificado
 
-    (mostra-eventos :ano 2021 :mes "Julho" :dia 10)
+    (mostra-eventos :ano 2021 :mes 9 :dia 15)
         ;; Irá retornar todos os eventos deste ano, no mês e dias especificados
 ```
 
