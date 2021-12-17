@@ -1,0 +1,1 @@
+(load "funcoes/agenda.lisp")
